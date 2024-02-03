@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <string>
 
 
 // функция заполнения двумерного динамического массива случайными числами
@@ -69,4 +70,14 @@ int main() {
     
     return 0;
 }
+
+    /*task 4*/
+
+
+    struct Employee {
+        std::string name;
+        int id;
+        std::string position;
+    };
     
+ 
